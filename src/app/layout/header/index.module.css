@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: var(--padding-section);
+    gap: 10rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--primary-color);
+    padding-inline: 8rem;
+}

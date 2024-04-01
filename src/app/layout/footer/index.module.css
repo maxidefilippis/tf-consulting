@@ -1,0 +1,17 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: var(--padding-section);
+    gap: 10rem;
+    border-top: 3px solid var(--border-color);
+    height: 300px;
+}
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: space-evenly;
+    width: 100%;
+}

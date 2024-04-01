@@ -1,0 +1,26 @@
+.why {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: 7rem;
+    gap: 2rem;
+    width: 100%;
+}
+.whyTitle {
+    font-size: 40px;
+    color: var(--white);
+}
+.whyCardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.whyItem {
+    flex: 0 0 calc(33% - 100px);
+    margin: 5px;
+}

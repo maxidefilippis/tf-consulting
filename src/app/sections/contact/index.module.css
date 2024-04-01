@@ -1,0 +1,28 @@
+.contactUs {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    width: 100%;
+    background: url('/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    mask-image: radial-gradient(black 50%, transparent);
+}
+.contactUsTitle {
+    width: 800px;
+    max-width: 90%;
+    font-size: 50px;
+    color: var(--white) !important;
+    font-family: var(--secondary-font);
+}
+.contactUsDescription {
+    display: flex;
+    width: 700px;
+    max-width: 90%;
+    font-size: 25px;
+}

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { Footer } from './layout/footer';
+import { Header } from './layout/header';
 import { amiko400 } from './styles/fonts';
 
 import './globals.css';
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={amiko400.className}>{children}</body>
+            <body className={amiko400.className}>
+                <Header />
+                <main>{children}</main>
+                <Footer />
+            </body>
         </html>
     );
 }
