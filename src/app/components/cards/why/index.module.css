@@ -29,11 +29,11 @@
         height: auto;
     }
     .whyCardTitle {
-        font-size: 14px;
+        font-size: 16px;
         color: var(--black);
     }
     .whyCardDescription {
-        font-size: 14px;
+        font-size: 16px;
         color: var(--black);
     }
 }

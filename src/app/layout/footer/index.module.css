@@ -33,5 +33,6 @@
         flex-direction: row;
         justify-content: space-between;
         gap: 0;
+        padding-block: 1rem;
     }
 }

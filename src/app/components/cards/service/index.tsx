@@ -21,7 +21,7 @@ export const ServiceCard = ({ number, title }: ServiceCardProps) => {
             <div className={styles.serviceCardMore}>
                 <Image
                     src={more}
-                    alt={'See more'}
+                    alt={'see more'}
                 />
             </div>
         </article>

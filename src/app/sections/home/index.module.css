@@ -29,12 +29,12 @@
     .home {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         padding: var(--padding-section-mobile);
-        min-height: calc(100vh - 185px);
+        min-height: calc(100vh - 190px);
     }
     .homeText {
-        gap: 10vh;
+        gap: 8vh;
         align-items: center;
     }
     .homeImage {
