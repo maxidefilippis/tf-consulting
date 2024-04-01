@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Taurino Wide Black';
+    src: url('/fonts/tarunowide-black.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Taurino Wide Bold';
+    src: url('/fonts/tarunowide-bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Taurino Wide Medium';
+    src: url('/fonts/tarunowide-medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Taurino Wide Light';
+    src: url('/fonts/tarunowide-light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Taurino Wide Regular';
+    src: url('/fonts/tarunowide-regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Taurino Wide Thin';
+    src: url('/fonts/tarunowide-thin.otf') format('opentype');
+}
