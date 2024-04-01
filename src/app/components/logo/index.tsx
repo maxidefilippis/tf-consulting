@@ -3,15 +3,15 @@ import webLogo from '../../../../public/logoweb.svg';
 import Image from 'next/image';
 
 interface LogoProps {
+    classes?: string;
     withText?: boolean;
-    width: number;
 }
-export const Logo = ({ withText, width }: LogoProps) => {
+export const Logo = ({ withText, classes = '' }: LogoProps) => {
     return (
         <Image
             src={withText ? fullLogo : webLogo}
             alt="logo tf consulting"
-            width={width}
+            className={classes}
         />
     );
 };

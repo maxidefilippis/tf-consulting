@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: var(--padding-section);
+    padding: var(--padding-section-desktop);
     gap: 10rem;
 }
 .nav {
@@ -12,4 +12,14 @@
     width: 100%;
     color: var(--primary-color);
     padding-inline: 8rem;
+}
+
+@media (max-width: 700px) {
+    .header {
+        padding: 0;
+        justify-content: center;
+    }
+    .nav {
+        display: none;
+    }
 }

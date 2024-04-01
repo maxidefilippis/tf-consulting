@@ -24,7 +24,7 @@ export const AboutSection = () => {
                 <Image
                     src={employees}
                     alt="high skilled developers"
-                    width={550}
+                    className={styles.aboutDevelopersImage}
                 />
                 <div className={styles.aboutDevelopersText}>
                     <div className={styles.aboutDevelopersFiftyPlus}>

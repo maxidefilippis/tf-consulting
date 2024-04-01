@@ -24,10 +24,14 @@
 .aboutTextDescription {
     display: flex;
     width: 800px;
-    max-width: 90%;
+    max-width: 100%;
 }
 .aboutDevelopers {
     display: flex;
+}
+.aboutDevelopersImage {
+    width: 550px;
+    object-fit: contain;
 }
 .aboutDevelopersText {
     display: flex;
@@ -53,4 +57,34 @@
     max-width: 350px;
     text-align: left;
     padding-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .about {
+        mask-image: none;
+        padding: var(--padding-section-mobile);
+        gap: 2rem;
+    }
+    .aboutTextDescription {
+        text-align: center;
+    }
+    .aboutDevelopers {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .aboutDevelopersImage {
+        width: 100%;
+        height: auto;
+    }
+    .aboutDevelopersText {
+        display: flex;
+    }
+    .aboutDevelopersPlus,
+    .aboutDevelopersFifty {
+        font-size: 30px;
+    }
+    .aboutDevelopersTextSkilled {
+        font-size: 14px;
+    }
 }

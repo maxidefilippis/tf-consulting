@@ -7,9 +7,9 @@ import phoneIcon from '/public/icons/phone.svg';
 
 export const Footer = () => {
     return (
-        <footer className={styles.social}>
+        <footer className={styles.footer}>
             <Logo
-                width={300}
+                classes={styles.footerLogo}
                 withText
             />
             <div className={styles.socialContainer}>

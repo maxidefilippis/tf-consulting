@@ -1,12 +1,16 @@
-.social {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: var(--padding-section);
+    padding: var(--padding-section-desktop);
     gap: 10rem;
     border-top: 3px solid var(--border-color);
     height: 300px;
+}
+.footerLogo {
+    width: 180px;
+    height: auto;
 }
 .socialContainer {
     display: flex;
@@ -14,4 +18,20 @@
     gap: 5rem;
     justify-content: space-evenly;
     width: 100%;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+    .footerLogo {
+        width: 120px;
+    }
+    .socialContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
 }

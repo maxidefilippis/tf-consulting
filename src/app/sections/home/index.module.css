@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas: 'text text image image image';
-    padding: var(--padding-section);
+    padding: var(--padding-section-desktop);
     padding-left: 7rem;
     padding-right: 0;
     min-height: calc(100vh - 250px);
@@ -23,4 +23,23 @@
     background: url('/background.png');
     background-repeat: no-repeat;
     mask-image: radial-gradient(black 60%, transparent);
+}
+
+@media (max-width: 700px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: var(--padding-section-mobile);
+        min-height: calc(100vh - 150px);
+    }
+    .homeText {
+        gap: 5rem;
+        align-items: center;
+    }
+    .homeImage {
+        display: none;
+        background: none;
+        mask-image: none;
+    }
 }
