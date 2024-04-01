@@ -29,9 +29,9 @@
     .home {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         padding: var(--padding-section-mobile);
-        min-height: calc(100vh - 150px);
+        min-height: calc(100vh - 185px);
     }
     .homeText {
         gap: 5rem;
