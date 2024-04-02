@@ -5,7 +5,7 @@ import { Title } from '../../title';
 import styles from './index.module.css';
 
 interface WhyCardProps {
-    icon?: any;
+    icon: any;
     title: string;
     description: string;
 }
