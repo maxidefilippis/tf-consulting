@@ -24,11 +24,11 @@ export const HomeSection = () => {
                     classes={amiko700.className}
                 />
             </div>
-            <div className={styles.homeImage}>
+            <div className={styles.homeImageContainer}>
                 <Image
                     src={computer}
                     alt="Elevate Your Projects"
-                    width={900}
+                    className={styles.homeImage}
                 />
             </div>
         </section>
