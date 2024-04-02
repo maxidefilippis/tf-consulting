@@ -76,7 +76,7 @@
         right: 1rem;
     }
     .servicePopUpTitle {
-        grid-template-columns: 150px repeat(4, 1fr);
+        grid-template-columns: 130px repeat(4, 1fr);
     }
     .servicePopUpNumber {
         padding-top: 0.5rem;
@@ -84,8 +84,11 @@
         line-height: 85px;
         font-size: 80px;
     }
+    .servicePopUpContent {
+        padding-top: 1rem;
+    }
     .servicePopUpText {
-        font-size: 20px;
+        font-size: 18px;
     }
     .servicePopUpDescription {
         font-size: 14px;

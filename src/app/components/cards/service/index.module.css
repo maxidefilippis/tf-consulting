@@ -1,5 +1,6 @@
 .serviceCard {
     display: grid;
+    position: relative;
     grid-template-columns: 270px repeat(5, 1fr);
     grid-template-areas: 'number title title title title more';
     justify-content: center;
@@ -13,7 +14,6 @@
     font-family: var(--secondary-font);
     gap: 1rem;
 }
-
 .serviceCardNumber {
     grid-area: number;
     margin-top: 1rem;
@@ -21,13 +21,11 @@
     font-size: 150px;
     color: var(--primary-color);
 }
-
 .serviceCardText {
     grid-area: title;
     font-size: 40px;
     text-align: left;
 }
-
 .serviceCardMore {
     display: flex;
     align-items: flex-end;
@@ -55,7 +53,12 @@
         text-align: center;
     }
     .serviceCardMore {
-        display: none;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .serviceCardMore img {
+       width: 30px;
     }
 }
 
