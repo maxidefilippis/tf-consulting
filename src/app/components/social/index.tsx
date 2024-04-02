@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Text } from '../text';
 import styles from './index.module.css';
 
@@ -10,22 +11,28 @@ interface SocialProps {
 }
 export const Social = ({ icon, red, linkName, linkAction }: SocialProps) => {
     return (
-        <div className={styles.social}>
-            <Image
-                src={icon}
-                alt={red}
-                className={styles.socialImage}
-            />
-            <div className={styles.socialDescription}>
-                <Text
-                    text={red}
-                    classes={styles.socialName}
+        <Link
+            href={linkAction}
+            rel="noopener noreferrer"
+            target="_blank"
+        >
+            <div className={styles.social}>
+                <Image
+                    src={icon}
+                    alt={red}
+                    className={styles.socialImage}
                 />
-                <Text
-                    text={linkName}
-                    classes={styles.socialLink}
-                />
+                <div className={styles.socialDescription}>
+                    <Text
+                        text={red}
+                        classes={styles.socialName}
+                    />
+                    <Text
+                        text={linkName}
+                        classes={styles.socialLink}
+                    />
+                </div>
             </div>
-        </div>
+        </Link>
     );
 };

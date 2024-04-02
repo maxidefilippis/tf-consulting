@@ -35,7 +35,7 @@
         flex-direction: column;
         justify-content: center;
         padding: var(--padding-section-mobile);
-        min-height: calc(100vh - 220px);
+        min-height: calc(100vh - 200px);
     }
     .homeText {
         gap: 4vh;

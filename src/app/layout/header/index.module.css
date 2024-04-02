@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     padding: var(--padding-section-desktop);
+    padding-block: 0;
     gap: 10rem;
 }
 .nav {
@@ -32,7 +33,7 @@
 
 @media (min-width: 701px) and (max-width: 1100px) {
     .header {
-        padding: 1.5rem;
+        padding-inline: 1.5rem;
         gap: 6rem;
     }
     .nav {

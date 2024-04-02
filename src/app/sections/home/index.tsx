@@ -9,10 +9,7 @@ import styles from './index.module.css';
 
 export const HomeSection = () => {
     return (
-        <section
-            id="home"
-            className={styles.home}
-        >
+        <section className={styles.home}>
             <div className={styles.homeText}>
                 <Title
                     type={TitleType.H1}

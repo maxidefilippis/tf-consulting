@@ -23,7 +23,7 @@ export const Footer = () => {
                     icon={emailIcon}
                     red="EMAIL"
                     linkName="contact@tfconsulting.net"
-                    linkAction=""
+                    linkAction="mailto:contact@tfconsulting.net"
                 />
                 <Social
                     icon={phoneIcon}

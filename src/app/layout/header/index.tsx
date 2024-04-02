@@ -5,7 +5,10 @@ import styles from './index.module.css';
 
 export const Header = () => {
     return (
-        <header className={styles.header}>
+        <header
+            id="home"
+            className={styles.header}
+        >
             <Logo />
             <nav className={`${styles.nav} ${amiko700.className}`}>
                 <Link href={'#about'}>About us</Link>
