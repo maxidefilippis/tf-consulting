@@ -7,7 +7,7 @@ import styles from './index.module.css';
 
 export const ContactUsSection = () => {
     return (
-        <section className={styles.contactUs}>
+        <section id="contact" className={styles.contactUs}>
             <Title
                 classes={styles.contactUsTitle}
                 type={TitleType.H3}

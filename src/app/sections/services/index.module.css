@@ -7,6 +7,7 @@
     text-align: center;
     gap: 2rem;
     width: 100%;
+    padding: var(--padding-section-desktop);
 }
 
 @media (max-width: 700px) {

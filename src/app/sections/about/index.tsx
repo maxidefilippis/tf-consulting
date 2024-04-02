@@ -7,7 +7,7 @@ import employees from '/public/images/employees.png';
 
 export const AboutSection = () => {
     return (
-        <section className={styles.about}>
+        <section id="about" className={styles.about}>
             <div className={styles.aboutText}>
                 <Title
                     text={'ABOUT US'}

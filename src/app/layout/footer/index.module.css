@@ -6,7 +6,7 @@
     padding: var(--padding-section-desktop);
     gap: 10rem;
     border-top: 3px solid var(--border-color);
-    height: 300px;
+    height: auto;
 }
 .footerLogo {
     width: 180px;
@@ -23,7 +23,6 @@
 @media (max-width: 700px) {
     .footer {
         flex-direction: column;
-        height: auto;
         gap: 2rem;
     }
     .footerLogo {
@@ -38,7 +37,6 @@
 
 @media (min-width: 701px) and (max-width: 1100px) {
     .footer {
-        height: auto;
         gap: 16vw;
     }
     .footerLogo {

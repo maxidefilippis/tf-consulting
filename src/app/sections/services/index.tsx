@@ -6,20 +6,23 @@ import styles from './index.module.css';
 export const ServicesSection = () => {
     return (
         <>
-        <section className={styles.services}>
-            <Title
-                text={'SERVICES'}
-                type={TitleType.H2}
-            />
-            <ServiceCard
-                number="01"
-                title="Staff Augmentation"
-            />
-            <ServiceCard
-                number="02"
-                title="Team Assembly for Specific Projects"
-            />
-        </section>
+            <section
+                id="services"
+                className={styles.services}
+            >
+                <Title
+                    text={'SERVICES'}
+                    type={TitleType.H2}
+                />
+                <ServiceCard
+                    number="01"
+                    title="Staff Augmentation"
+                />
+                <ServiceCard
+                    number="02"
+                    title="Team Assembly for Specific Projects"
+                />
+            </section>
         </>
     );
 };
