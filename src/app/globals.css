@@ -4,6 +4,7 @@
     --card-radius: 12px;
     --padding-section-desktop: 2rem 4rem;
     --padding-section-mobile: 2rem 3rem;
+    --padding-section-tablet: 4rem;
 
     --primary-font: 'Amiko';
     --secondary-font: 'Taurino Wide Medium';
@@ -59,9 +60,24 @@ p {
     font-size: 25px;
 }
 
+@media (min-width: 701px) and (max-width: 1100px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 700px) {
     h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
     h2 {
         font-size: 30px;

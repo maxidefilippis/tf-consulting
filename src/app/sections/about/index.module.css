@@ -90,3 +90,15 @@
         font-size: 16px;
     }
 }
+@media (min-width: 701px) and (max-width: 1100px) {
+    .about {
+        mask-image: none;
+        padding: var(--padding-section-tablet);
+        gap: 2rem;
+    }
+    .aboutDevelopers {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+}

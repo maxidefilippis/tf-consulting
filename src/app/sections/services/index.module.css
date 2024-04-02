@@ -15,3 +15,10 @@
         gap: 3rem;
     }
 }
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .services {
+        padding: var(--padding-section-tablet);
+        gap: 4rem;
+    }
+}

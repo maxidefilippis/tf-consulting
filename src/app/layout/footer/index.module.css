@@ -30,7 +30,21 @@
         width: 120px;
     }
     .socialContainer {
-        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+        padding-block: 1rem;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .footer {
+        height: auto;
+        gap: 16vw;
+    }
+    .footerLogo {
+        width: 130px;
+    }
+    .socialContainer {
         justify-content: space-between;
         gap: 0;
         padding-block: 1rem;

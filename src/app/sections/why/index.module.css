@@ -38,3 +38,13 @@
         color: var(--white);
     }
 }
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .why {
+        padding: var(--padding-section-tablet)
+    }
+    .whyTitle {
+        font-size: 36px;
+        color: var(--white);
+    }
+}
