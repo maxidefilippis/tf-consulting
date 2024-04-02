@@ -28,10 +28,13 @@
     max-width: 100%;
 }
 .aboutDevelopers {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 .aboutDevelopersImage {
-    width: 550px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
 .aboutDevelopersText {
@@ -100,6 +103,9 @@
     .aboutDevelopers {
         display: flex;
         flex-direction: column;
-        gap: 0rem;
+        align-items: center;
+    }
+    .aboutDevelopersImage {
+        max-width: 500px;
     }
 }
