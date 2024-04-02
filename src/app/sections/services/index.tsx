@@ -19,16 +19,16 @@ export const ServicesSection = () => {
                 <ServiceCard
                     number="01"
                     title="Staff Augmentation"
-                    description={`TF Consulting offers staff augmentation services, primarily focusing on providing developers, quality consultants, bussines analysts, DBAs, etc., to other companies through B2B contracts. This involves identifying the right candidates based on the client's requirements, conducting technical screenings, and presenting prospects along with competitive prices. This service allows companies to enhance their teams with skilled professionals from South America.`}
                     image={staffAugmentationImage}
+                    description={`TF Consulting offers staff augmentation services, primarily focusing on providing developers, quality consultants, bussines analysts, DBAs, etc., to other companies through B2B contracts. This involves identifying the right candidates based on the client's requirements, conducting technical screenings, and presenting prospects along with competitive prices. This service allows companies to enhance their teams with skilled professionals from South America.`}
                 />
                 <ServiceCard
                     number="02"
                     title="Team Assembly for Specific Projects"
+                    image={teamAssemblySpecificProjects}
                     description={
                         'Another service that the company offers is assembling teams for specific development projects. This can be done through turnkey projects or on an hourly basis. This service provides a comprehensive solution for companies looking to complete particular software development projects by leveraging the expertise of your assembled teams.'
                     }
-                    image={teamAssemblySpecificProjects}
                 />
             </section>
         </>

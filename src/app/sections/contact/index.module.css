@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    mask-image: radial-gradient(black 50%, transparent);
+    mask-image: radial-gradient(black 70%, transparent);
     padding: var(--padding-section-desktop);
 }
 .contactUsTitle {

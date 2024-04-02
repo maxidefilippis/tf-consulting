@@ -13,6 +13,7 @@
 }
 .whyCardIcon {
     height: 60px;
+    width: auto;
 }
 .whyCardTitle {
     font-size: 22px;
