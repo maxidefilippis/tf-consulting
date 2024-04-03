@@ -7,6 +7,11 @@
     padding-block: 0;
     gap: 10rem;
 }
+.headerLogo {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
 .nav {
     display: flex;
     justify-content: space-between;

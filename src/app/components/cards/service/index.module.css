@@ -27,12 +27,12 @@
     text-align: left;
 }
 .serviceCardMore {
+    grid-area: more;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     align-self: flex-end;
     margin: 1.5rem;
-    grid-area: more;
     font-size: 40px;
     cursor: pointer;
 }

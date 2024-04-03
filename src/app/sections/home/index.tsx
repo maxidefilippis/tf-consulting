@@ -4,7 +4,7 @@ import { Title } from '@/app/components/title';
 import { TitleType } from '@/app/constants/text';
 import { amiko700 } from '@/app/styles/fonts';
 import Image from 'next/image';
-import computer from '/public/images/computer.png';
+import computer from '/public/images/computer.svg';
 import styles from './index.module.css';
 
 export const HomeSection = () => {

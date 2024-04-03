@@ -9,7 +9,7 @@ export const Header = () => {
             id="home"
             className={styles.header}
         >
-            <Logo />
+            <Logo classes={styles.headerLogo} />
             <nav className={`${styles.nav} ${amiko700.className}`}>
                 <Link href={'#about'}>About us</Link>
                 <Link href={'#services'}>Services</Link>
