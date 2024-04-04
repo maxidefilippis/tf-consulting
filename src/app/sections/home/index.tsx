@@ -13,6 +13,7 @@ export const HomeSection = () => {
             <div className={styles.homeText}>
                 <Title
                     type={TitleType.H1}
+                    classes={styles.homeTitle}
                     text="Elevate Your Projects with TF Consulting LLC"
                 />
                 <Text text="Seeking a game-changing boost for your software projects? Look no further than TF Consulting LLC! We are your passport to unlock unparalleled excellence in development." />

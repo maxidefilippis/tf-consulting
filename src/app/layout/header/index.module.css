@@ -8,7 +8,7 @@
     gap: 10rem;
 }
 .headerLogo {
-    width: 200px;
+    width: 250px;
     height: auto;
     object-fit: contain;
 }
@@ -17,7 +17,7 @@
     justify-content: space-between;
     width: 100%;
     color: var(--primary-color);
-    padding-inline: 10vw;
+    padding-inline: 8vw;
 }
 .nav a {
     font-size: 25px;
@@ -39,7 +39,7 @@
 @media (min-width: 701px) and (max-width: 1100px) {
     .header {
         padding-inline: 1.5rem;
-        gap: 6rem;
+        gap: 4rem;
     }
     .nav {
         padding-right: 2rem;
