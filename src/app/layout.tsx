@@ -7,8 +7,9 @@ import './globals.css';
 import './styles/fonts.css';
 
 export const metadata: Metadata = {
-    title: 'TF Consulting',
-    description: 'Elevate Your Projects with TF Consulting LLC. We are your passport to unlock unparalleled excellence in development.',
+    title: 'TF Consulting - Elevate your projects',
+    description:
+        'We are a company that provides staff augmentation to software enterprises located in different parts of the world. We offer B2B contracts to allow you to hire developers from South America at a very competitive rate.',
 };
 
 export default function RootLayout({
