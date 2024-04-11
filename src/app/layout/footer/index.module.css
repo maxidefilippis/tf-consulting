@@ -11,6 +11,7 @@
 .footerLogo {
     width: 180px;
     height: auto;
+    padding-top: 10px;
 }
 .socialContainer {
     display: flex;
@@ -26,7 +27,7 @@
         gap: 2rem;
     }
     .footerLogo {
-        width: 120px;
+        width: 150px;
     }
     .socialContainer {
         justify-content: space-between;
@@ -40,7 +41,8 @@
         gap: 16vw;
     }
     .footerLogo {
-        width: 130px;
+        width: 150px;
+        padding-top: 0;
     }
     .socialContainer {
         justify-content: space-between;

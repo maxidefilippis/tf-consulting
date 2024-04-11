@@ -3,7 +3,7 @@ import { Text } from '@/app/components/text';
 import styles from './index.module.css';
 import Image from 'next/image';
 import { TitleType } from '@/app/constants/text';
-import employees from '/public/images/employees.svg';
+import employees from '/public/images/employees.webp';
 
 export const AboutSection = () => {
     return (

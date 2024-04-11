@@ -4,8 +4,9 @@ import { Title } from '@/app/components/title';
 import { TitleType } from '@/app/constants/text';
 import { amiko700 } from '@/app/styles/fonts';
 import Image from 'next/image';
-import computer from '/public/images/computer.svg';
+import Link from 'next/link';
 import styles from './index.module.css';
+import computer from '/public/images/computer.svg';
 
 export const HomeSection = () => {
     return (
@@ -17,10 +18,12 @@ export const HomeSection = () => {
                     text="Elevate Your Projects with TF Consulting LLC"
                 />
                 <Text text="Seeking a game-changing boost for your software projects? Look no further than TF Consulting LLC! We are your passport to unlock unparalleled excellence in development." />
-                <Button
-                    text={'CONTACT US'}
-                    classes={amiko700.className}
-                />
+                <Link href={'#contact'}>
+                    <Button
+                        text={'CONTACT US'}
+                        classes={amiko700.className}
+                    />
+                </Link>
             </div>
             <div className={styles.homeImageContainer}>
                 <Image

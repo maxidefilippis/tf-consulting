@@ -2,8 +2,8 @@ import { ServiceCard } from '@/app/components/cards/service';
 import { Title } from '@/app/components/title';
 import { TitleType } from '@/app/constants/text';
 import styles from './index.module.css';
-import staffAugmentationImage from '/public/images/staffAugmentation.png';
-import teamAssemblySpecificProjects from '/public/images/teamAssemblySpecificProjects.png';
+import staffAugmentationImage from '/public/images/staffAugmentation.webp';
+import teamAssemblySpecificProjects from '/public/images/teamAssemblySpecificProjects.webp';
 
 export const ServicesSection = () => {
     return (

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import fullLogo from '../../../../public/logoCompleto.png';
+import fullLogo from '../../../../public/logoCompleto.svg';
 import webLogo from '../../../../public/logoweb.svg';
 
 interface LogoProps {
