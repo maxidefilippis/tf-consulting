@@ -1,7 +1,7 @@
 'use client';
 import { ServicePopUp } from '@/app/components/popup/service';
 import { Text } from '@/app/components/text';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import { useState } from 'react';
 import styles from './index.module.css';
 import more from '/public/icons/more.svg';
@@ -10,7 +10,7 @@ interface ServiceCardProps {
     number: string;
     title: string;
     description: string;
-    image: StaticImageData;
+    image: string;
 }
 export const ServiceCard = ({ number, title, description, image }: ServiceCardProps) => {
     const [showPopUp, setShowPopUp] = useState<boolean>(false);

@@ -8,7 +8,7 @@ interface ServicePopUpProps {
     number: string;
     title: string;
     description: string;
-    image: StaticImageData;
+    image: string;
     onClosePopUp: () => void;
 }
 export const ServicePopUp = ({ number, title, description, image, onClosePopUp }: ServicePopUpProps) => {
@@ -37,6 +37,8 @@ export const ServicePopUp = ({ number, title, description, image, onClosePopUp }
                         classes={`${styles.servicePopUpDescription} ${amiko400.className}`}
                     />
                     <Image
+                        width={800}
+                        height={100}
                         className={styles.servicePopUpImage}
                         src={image}
                         alt={title}
