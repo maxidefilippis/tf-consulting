@@ -89,4 +89,7 @@ p {
     p {
         font-size: 18px;
     }
+    main a {
+        width: 100%;
+    }
 }
