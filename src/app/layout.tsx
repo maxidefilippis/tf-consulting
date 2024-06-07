@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Toaster } from 'react-hot-toast';
 import { Footer } from './layout/footer';
 import { Header } from './layout/header';
 import { amiko400 } from './styles/fonts';
@@ -23,6 +24,7 @@ export default function RootLayout({
                 <Header />
                 <main>{children}</main>
                 <Footer />
+                <Toaster />
             </body>
         </html>
     );
