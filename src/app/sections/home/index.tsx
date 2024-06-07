@@ -1,6 +1,7 @@
 import { Button } from '@/app/components/button';
 import { Text } from '@/app/components/text';
 import { Title } from '@/app/components/title';
+import { appointments } from '@/app/constants/globals';
 import { TitleType } from '@/app/constants/text';
 import { amiko700 } from '@/app/styles/fonts';
 import Image from 'next/image';
@@ -18,9 +19,13 @@ export const HomeSection = () => {
                     text="Elevate Your Projects with TF Consulting LLC"
                 />
                 <Text text="Seeking a game-changing boost for your software projects? Look no further than TF Consulting LLC! We are your passport to unlock unparalleled excellence in development." />
-                <Link href={'#contact'}>
+                <Link
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href={appointments}
+                >
                     <Button
-                        text={'CONTACT US'}
+                        text={'BOOK A CALL'}
                         classes={amiko700.className}
                     />
                 </Link>
