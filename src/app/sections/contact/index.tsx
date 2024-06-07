@@ -47,11 +47,11 @@ export const ContactUsSection = () => {
             <form className={styles.contactUsForm} ref={form} onSubmit={sendEmail}>
                 <div className={styles.contactUsFormField}>
                     <label>Name</label>
-                    <input type="text" name="user_name" />
+                    <input type="text" name="user_name" maxLength={50} />
                 </div>
                 <div className={styles.contactUsFormField}>
                     <label>Email</label>
-                    <input type="email" name="user_email" />
+                    <input type="email" name="user_email" maxLength={50} />
                 </div>
                 <div className={styles.contactUsFormField}>
                     <label>Message</label>
